@@ -12,7 +12,7 @@ import Moya
 enum Services {
     //MARK: - AUTHENTICATION
     case login(email:String,password:String)
-    case dashboard(email:String,password:String)
+    case live(email:String,password:String)
    
 }
 
