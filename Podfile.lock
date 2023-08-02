@@ -40,6 +40,7 @@ PODS:
   - TagListView (1.4.1)
 
 DEPENDENCIES:
+  - Alamofire
   - AZTabBar
   - Charts (= 4.1.0)
   - Cosmos
@@ -113,6 +114,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
   TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
 
-PODFILE CHECKSUM: f91cfcff643686df3c1203f61535dd96d2bd6a48
+PODFILE CHECKSUM: 0b6a47f73f73dc6ca4afc32ddfe390240d80fd74
 
 COCOAPODS: 1.11.3

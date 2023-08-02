@@ -270,7 +270,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="a0u-zY-QS8"/>
                     <connections>
-                        <outlet property="emailfeild" destination="HCc-kw-bSO" id="O9v-jL-LUA"/>
+                        <outlet property="emailFeild" destination="3Wd-wJ-vCy" id="ImD-a5-gaj"/>
                         <outlet property="passwordfeild" destination="oF1-MJ-Pw4" id="Z1E-1g-A32"/>
                     </connections>
                 </viewController>

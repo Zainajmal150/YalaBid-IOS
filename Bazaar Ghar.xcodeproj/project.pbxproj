@@ -47,6 +47,18 @@
 		5863CA5D2A78DAE000A4B0B8 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863CA5C2A78DAE000A4B0B8 /* HomePage.swift */; };
 		5863CA622A79130100A4B0B8 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5863CA612A79130100A4B0B8 /* CarCell.swift */; };
 		587CBFAE2A710506006C2AFA /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587CBFAD2A710506006C2AFA /* LoginVc.swift */; };
+		58BE5DC12A7A72760066EF21 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DB72A7A72760066EF21 /* Constants.swift */; };
+		58BE5DC22A7A72760066EF21 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DB82A7A72760066EF21 /* Services.swift */; };
+		58BE5DC32A7A72760066EF21 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DB92A7A72760066EF21 /* APIService.swift */; };
+		58BE5DC42A7A72760066EF21 /* Extension+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DBA2A7A72760066EF21 /* Extension+Error.swift */; };
+		58BE5DC52A7A72760066EF21 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DBB2A7A72760066EF21 /* Provider.swift */; };
+		58BE5DC62A7A72760066EF21 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DBC2A7A72760066EF21 /* NetworkManager.swift */; };
+		58BE5DC82A7A72760066EF21 /* APIResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DBE2A7A72760066EF21 /* APIResult.swift */; };
+		58BE5DC92A7A72760066EF21 /* Extension+Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DBF2A7A72760066EF21 /* Extension+Result.swift */; };
+		58BE5DCA2A7A72760066EF21 /* Plugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DC02A7A72760066EF21 /* Plugin.swift */; };
+		58BE5DCC2A7A73B60066EF21 /* UserDefault+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DCB2A7A73B60066EF21 /* UserDefault+Extension.swift */; };
+		58BE5DD12A7A74520066EF21 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5DD02A7A74520066EF21 /* CurrentUser.swift */; };
+		58D9C78A2A7A428C000CA48C /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D9C7892A7A428C000CA48C /* LoginResponse.swift */; };
 		5A80E73330A2705E64A5A5C6 /* Pods_Bazaar_Ghar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E26C221A5CACF34B0EABDFEB /* Pods_Bazaar_Ghar.framework */; };
 		DACF94A72A30A33A00404D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF94A62A30A33A00404D77 /* AppDelegate.swift */; };
 		DACF94AB2A30A33A00404D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACF94AA2A30A33A00404D77 /* ViewController.swift */; };
@@ -119,6 +131,18 @@
 		5863CA5C2A78DAE000A4B0B8 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		5863CA612A79130100A4B0B8 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
 		587CBFAD2A710506006C2AFA /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
+		58BE5DB72A7A72760066EF21 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		58BE5DB82A7A72760066EF21 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		58BE5DB92A7A72760066EF21 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		58BE5DBA2A7A72760066EF21 /* Extension+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Error.swift"; sourceTree = "<group>"; };
+		58BE5DBB2A7A72760066EF21 /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
+		58BE5DBC2A7A72760066EF21 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		58BE5DBE2A7A72760066EF21 /* APIResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResult.swift; sourceTree = "<group>"; };
+		58BE5DBF2A7A72760066EF21 /* Extension+Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+Result.swift"; sourceTree = "<group>"; };
+		58BE5DC02A7A72760066EF21 /* Plugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plugin.swift; sourceTree = "<group>"; };
+		58BE5DCB2A7A73B60066EF21 /* UserDefault+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserDefault+Extension.swift"; sourceTree = "<group>"; };
+		58BE5DD02A7A74520066EF21 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		58D9C7892A7A428C000CA48C /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		DACF94A32A30A33A00404D77 /* Bazaar Ghar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bazaar Ghar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACF94A62A30A33A00404D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DACF94AA2A30A33A00404D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -213,6 +237,7 @@
 		585CBB632A6E945B00CC0AEF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				58BE5DCB2A7A73B60066EF21 /* UserDefault+Extension.swift */,
 				585CBB642A6E945B00CC0AEF /* UIView+Extension.swift */,
 				585CBB652A6E945B00CC0AEF /* Extensions.swift */,
 				585CBB662A6E945B00CC0AEF /* ColorWheel.swift */,
@@ -268,9 +293,36 @@
 			path = CCell;
 			sourceTree = "<group>";
 		};
+		58BE5DB62A7A72760066EF21 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				58BE5DB72A7A72760066EF21 /* Constants.swift */,
+				58BE5DB82A7A72760066EF21 /* Services.swift */,
+				58BE5DB92A7A72760066EF21 /* APIService.swift */,
+				58BE5DBA2A7A72760066EF21 /* Extension+Error.swift */,
+				58BE5DBB2A7A72760066EF21 /* Provider.swift */,
+				58BE5DBC2A7A72760066EF21 /* NetworkManager.swift */,
+				58BE5DBE2A7A72760066EF21 /* APIResult.swift */,
+				58BE5DBF2A7A72760066EF21 /* Extension+Result.swift */,
+				58BE5DC02A7A72760066EF21 /* Plugin.swift */,
+			);
+			name = Network;
+			path = "Bazaar Ghar/Network";
+			sourceTree = "<group>";
+		};
+		58BE5DCF2A7A74390066EF21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58BE5DD02A7A74520066EF21 /* CurrentUser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DACF949A2A30A33A00404D77 = {
 			isa = PBXGroup;
 			children = (
+				58BE5DCF2A7A74390066EF21 /* Model */,
+				58BE5DB62A7A72760066EF21 /* Network */,
 				585CBB582A6E945B00CC0AEF /* Helpers */,
 				DACF94A52A30A33A00404D77 /* Bazaar Ghar */,
 				DACF94BC2A30A33E00404D77 /* Bazaar GharTests */,
@@ -305,6 +357,7 @@
 				587CBFAD2A710506006C2AFA /* LoginVc.swift */,
 				5863CA5C2A78DAE000A4B0B8 /* HomePage.swift */,
 				584534C32A792C960068AD9F /* AuvctionCarView.swift */,
+				58D9C7892A7A428C000CA48C /* LoginResponse.swift */,
 			);
 			path = "Bazaar Ghar";
 			sourceTree = "<group>";
@@ -539,30 +592,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58BE5DC92A7A72760066EF21 /* Extension+Result.swift in Sources */,
 				585CBB872A6E945C00CC0AEF /* VSSlider.swift in Sources */,
+				58BE5DC12A7A72760066EF21 /* Constants.swift in Sources */,
 				585CBB932A6E945C00CC0AEF /* ChatCheckBox.swift in Sources */,
+				58BE5DC62A7A72760066EF21 /* NetworkManager.swift in Sources */,
 				585CBBA32A6E945C00CC0AEF /* ScrollableSegmentedControl.swift in Sources */,
+				58BE5DCC2A7A73B60066EF21 /* UserDefault+Extension.swift in Sources */,
 				585CBBA22A6E945C00CC0AEF /* LocationManager.swift in Sources */,
 				DACF95332A30A85500404D77 /* DashboardVc.swift in Sources */,
 				585CBB862A6E945C00CC0AEF /* Toast.swift in Sources */,
 				5863CA5D2A78DAE000A4B0B8 /* HomePage.swift in Sources */,
 				585CBBA42A6E945C00CC0AEF /* ColorManager.swift in Sources */,
 				DACF94AB2A30A33A00404D77 /* ViewController.swift in Sources */,
+				58BE5DC52A7A72760066EF21 /* Provider.swift in Sources */,
+				58BE5DC22A7A72760066EF21 /* Services.swift in Sources */,
 				585CBB8E2A6E945C00CC0AEF /* UIStoryboard.swift in Sources */,
 				584534C42A792C960068AD9F /* AuvctionCarView.swift in Sources */,
 				DACF94A72A30A33A00404D77 /* AppDelegate.swift in Sources */,
 				584534C22A792BEC0068AD9F /* Car_tablecell.swift in Sources */,
 				585CBB882A6E945C00CC0AEF /* InternalSlider.swift in Sources */,
 				585CBBA12A6E945C00CC0AEF /* OptionalsUnwrapper.swift in Sources */,
+				58BE5DC42A7A72760066EF21 /* Extension+Error.swift in Sources */,
 				585CBB8F2A6E945C00CC0AEF /* Storyboards.swift in Sources */,
 				585CBB8A2A6E945C00CC0AEF /* UIView+Extension.swift in Sources */,
+				58BE5DD12A7A74520066EF21 /* CurrentUser.swift in Sources */,
+				58BE5DCA2A7A72760066EF21 /* Plugin.swift in Sources */,
 				585CBB832A6E945C00CC0AEF /* Utilities.swift in Sources */,
 				585CBB8B2A6E945C00CC0AEF /* Extensions.swift in Sources */,
 				585CBB902A6E945C00CC0AEF /* AppTextField.swift in Sources */,
+				58D9C78A2A7A428C000CA48C /* LoginResponse.swift in Sources */,
 				5863CA622A79130100A4B0B8 /* CarCell.swift in Sources */,
 				585CBB852A6E945C00CC0AEF /* Logger.swift in Sources */,
 				587CBFAE2A710506006C2AFA /* LoginVc.swift in Sources */,
 				585CBB942A6E945C00CC0AEF /* CheckBox.swift in Sources */,
+				58BE5DC82A7A72760066EF21 /* APIResult.swift in Sources */,
 				585CBB892A6E945C00CC0AEF /* ColorPickers.swift in Sources */,
 				585CBB8C2A6E945C00CC0AEF /* ColorWheel.swift in Sources */,
 				585CBB842A6E945C00CC0AEF /* CardView.swift in Sources */,
@@ -570,6 +634,7 @@
 				585CBB822A6E945C00CC0AEF /* Constant.swift in Sources */,
 				585CBB912A6E945C00CC0AEF /* AppLabel.swift in Sources */,
 				585CBB8D2A6E945C00CC0AEF /* UIViewController.swift in Sources */,
+				58BE5DC32A7A72760066EF21 /* APIService.swift in Sources */,
 				585CBB922A6E945C00CC0AEF /* AppButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

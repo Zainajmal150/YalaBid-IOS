@@ -19,6 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 IQKeyboardManager.shared.shouldPlayInputClicks = true
                 IQKeyboardManager.shared.shouldShowToolbarPlaceholder = false
                 IQKeyboardManager.shared.enableDebugging = true
+        gotoSignInVc()
         return true
     }
     func gotoSignInVc(){

@@ -31,6 +31,7 @@ target 'Bazaar Ghar' do
     pod 'SwiftyJSON'
     pod 'SwiftSignalRClient', '0.9.0'
     pod 'Charts', '4.1.0'
+pod 'Alamofire'
 pod 'AZTabBar'
 end
 post_install do |installer|
